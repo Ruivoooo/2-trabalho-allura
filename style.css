@@ -1,0 +1,197 @@
+
+
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C; 
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #2c7bdd;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    
+}
+
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    padding: 1em;
+    color: var(--branco-principal);
+    
+}
+
+.container__aviso{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem{
+    
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
+
+.container__imagens{
+    margin: 0 15em;
+}
+
+
+.container__descricao{
+    align-items: center;
+    margin: 13em 5em 0 0;
+}
+
+.descricao__titulo{
+
+    font-size: 40px;
+    font-weight: 700; 
+    margin-bottom: 0.5em;
+    
+}
+
+.descricao__tv{
+    font-size: 15px;
+    color: var(--cinza-secundario);
+    
+}
+
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+
+.container__descricao{
+    padding: 2em;
+}
+
+.descricao_texto{
+    margin: 4em 10em;
+}
+
+.secundario__botao{
+    margin: 0 10em;
+}
+
+
+.baixar_cursos{
+    font-size: 40px;
+    
+} 
+
+.alinhar{
+    margin: 5em 0 ;
+}
+
+
+.dispositivos__titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    margin-bottom: 1em;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    font-size: 32px;
+    color: var(--branco-principal);
+    margin: 5em 0;
+
+}
+
+
+.classe{
+    text-align: center; 
+    margin-bottom: 2.0em;
+      
+}
+
+.rodape__lista{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom:  3em;
+      
+}
+
+.lista_link{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin: 1em;
+}
+
+
+.rodape__texto{
+    margin-bottom: 1.5em;
+    text-align: center;
+    color: var(--cinza-secundario);
+
+}
+
+.lista_link:hover{
+    color: var(--botao-azul);
+}
+
+.lista_link:active{
+    color: purple;
+}
+   
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}
+
+
+
+
+
+   
